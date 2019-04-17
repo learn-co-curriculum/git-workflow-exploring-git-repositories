@@ -23,6 +23,8 @@ to when needed. Run the command:
 $ git log
 ```
 
+!["git log"](https://curriculum-content.s3.amazonaws.com/prework/git-workflow/git%20log.gif)
+
 and we'll see an output of all the commits made in that repository.
 
 Retrieving a Git log is especially useful when we've cloned someone else's
@@ -46,6 +48,10 @@ next to each other:
 ```bash
 $ git diff
 ```
+
+You will use the command `git diff <commit 1> <commit 2>`.
+
+!["git diff"](https://curriculum-content.s3.amazonaws.com/prework/git-workflow/git%20diff.gif)
 
 This command will show us the differences between previous commits and current
 work, or between different branches, or anything else we need to track changes
@@ -76,6 +82,8 @@ the command:
 $ git reset --soft HEAD~1
 ```
 
+!["git reset --soft head~1"](https://curriculum-content.s3.amazonaws.com/prework/git-workflow/git%20reset.gif)
+
 Now Git rewinds to the way our code was before the last commit. If we need to go
 even further back, we could ask Git to take us, for example, three commits back
 in the repo history:
@@ -103,6 +111,8 @@ you wanted to clear it all and start back at the beginning. Run:
 ```bash
 $ git checkout .
 ```
+
+!["git checkout ."](https://curriculum-content.s3.amazonaws.com/prework/git-workflow/git%20checkout%20dot.gif)
 
 ... and you'll have a nice, clean working branch.
 
