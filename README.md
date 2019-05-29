@@ -129,7 +129,7 @@ committed state, but keep all the other changes we made in our working state.
 ## Conclusion
 
 Git has a lot of powerful features and commands. Once we progress beyond the
-basic technqiues, we can use tools like `git log`, `git diff`, `git reset` and
+basic techniques, we can use tools like `git log`, `git diff`, `git reset` and
 `git checkout` to optimize our Git use.
 
 ## Resources
